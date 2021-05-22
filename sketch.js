@@ -136,7 +136,7 @@ function draw(){
     count.visible=true
     bg.visible=true
     bg1.visible=false
-      if(bg.y>displayHeight+1200){
+      if(bg.y>windowHeight+1200){
       bg.y=  500;
       }
       distance = distance + Math.round(World.frameRate/50);
@@ -245,6 +245,7 @@ function draw(){
   textStyle(BOLD)
   fill("blue")
   text("Try your best!",windowWidth/2-70,windowHeight/2+780)
+       text("Hellooooooo", windowWidth/2-70,windowHeight/2+780)
   textSize(40)
   textFont("Helvetica")
   textStyle(BOLD)
