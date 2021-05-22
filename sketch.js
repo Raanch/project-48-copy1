@@ -136,7 +136,7 @@ function draw(){
     count.visible=true
     bg.visible=true
     bg1.visible=false
-      if(bg.y>windowHeight+700){
+      if(bg.y>windowHeight){
       bg.y=  0;
       }
       distance = distance + Math.round(World.frameRate/50);
