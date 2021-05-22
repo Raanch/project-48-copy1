@@ -63,7 +63,7 @@ function setup(){
  var music=bgMusic.isPlaying();
  console.log(music)
 // No Changes
- bg=createSprite(windowWidth/2-300,windowHeight/2,windowWidth, windowHeight+100)
+ bg=createSprite(windowWidth/2,windowHeight/2,windowWidth, windowHeight+100)
  bg.addImage(b5)
  bg.velocityY=12;
  bg.scale=10
