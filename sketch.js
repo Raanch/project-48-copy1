@@ -66,7 +66,7 @@ function setup(){
  bg=createSprite(windowWidth/2,windowHeight/2,windowWidth, windowHeight+100)
  bg.addImage(b5)
  bg.velocityY=12;
- bg.scale=3
+ bg.scale=2
 
  man=createSprite(windowWidth/2,windowHeight/2+150)
  man.addAnimation("background",manImg)
