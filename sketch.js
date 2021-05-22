@@ -66,7 +66,7 @@ function setup(){
  bg=createSprite(windowWidth/2-300,windowHeight/2,windowWidth, windowHeight+100)
  bg.addImage(b5)
  bg.velocityY=12;
- bg.scale=1.7
+ bg.scale=10
 
  man=createSprite(windowWidth/2,windowHeight/2+150)
  man.addAnimation("background",manImg)
@@ -137,7 +137,7 @@ function draw(){
     bg.visible=true
     bg1.visible=false
       if(bg.y>windowHeight/2 + 900){
-      bg.y=  0;
+      bg.y=  windowHeight/2-300;
       }
       distance = distance + Math.round(World.frameRate/50);
      if (keyDown(RIGHT_ARROW)) {
